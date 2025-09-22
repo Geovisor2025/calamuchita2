@@ -454,7 +454,7 @@ var bottomRightContainerDiv = document.getElementById('bottom-right-container')
 
 	const geolocateButton = document.createElement('button');
 	geolocateButton.className = 'geolocate-button fa fa-map-marker';
-	geolocateButton.title = 'Geolocalizza';
+	geolocateButton.title = 'Ubicación';
 
 	const geolocateControl = document.createElement('div');
 	geolocateControl.className = 'ol-unselectable ol-control geolocate';
@@ -516,7 +516,7 @@ let measuring = false;
 
 	const measureButton = document.createElement('button');
 	measureButton.className = 'measure-button fas fa-ruler';
-	measureButton.title = 'Measure';
+	measureButton.title = 'Medir';
 
 	const measureControl = document.createElement('div');
 	measureControl.className = 'ol-unselectable ol-control measure-control';
